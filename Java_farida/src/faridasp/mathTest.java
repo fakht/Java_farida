@@ -19,7 +19,7 @@ public class mathTest {
 
 	@Test
 	public void testMain() {
-		int x=6,y=6;
+		int x=10,y=10;
 		boolean comp = x != y;
 		System.out.print(comp);
 	}
