@@ -17,7 +17,6 @@ public class mathTest {
 	}
 
 
-
 	@Test
 	public void testMain() {
 		int x=8,y=7;
