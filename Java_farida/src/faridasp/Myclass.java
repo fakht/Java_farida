@@ -3,10 +3,13 @@ package faridasp;
 public class Myclass {
 	public static void main(String [] args){
 		
-		for (int i=18;i<=25;i++)
-		{
-			System.out.println("Numret är "+ i);
+		String[] names=new String[3];
+		names[0]="Asha";
+		names[1]="Nisha";
+		names[2]="Frida";
+		 for(String name:names){
+			System.out.println("Hallå "+ name);
 		}
-		
+			
 	}
 }
