@@ -2,9 +2,10 @@ package faridasp;
 
 public class math {
 	public static void main (String [] args){
-		int x=7,y=7;
-		boolean comp = x != y;
-		System.out.print(comp);
+		for (int i=1980; i<=1999; i=2)
+		{
+			System.out.println("året " + i);
+		}
 		
 		
 	}
